@@ -132,7 +132,25 @@
         <li><a href="<?php echo base_url(); ?>index.php/Apps/lampu"><i class="fa fa-book"></i> <span>MONITORING LAMPU</span></a></li>
         <li><a href="<?php echo base_url(); ?>index.php/Apps/sensor"><i class="fa fa-book"></i> <span>MONITORING SENSOR</span></a></li>
         <li><a href="<?php echo base_url(); ?>index.php/Crud"><i class="fa fa-book"></i> <span>DATA USER</span></a></li>
-        
+        <li><a href="<?php echo base_url(); ?>index.php/Apps/t_jadwal"><i class="fa fa-book"></i> <span>PENJADWALAN</span></a></li>
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-files-o"></i>
+            <span>Options</span>
+            <span class="pull-right-container">
+              <span class="label label-primary pull-right">4</span>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="pages/layout/top-nav.html"><i class="fa fa-circle-o"></i>JADWAL</a></li>
+            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i>DETAIL JADWAL</a></li>
+            <li><a href="pages/layout/fixed.html"><i class="fa fa-circle-o"></i>LOKASI</a></li>
+            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i>DETAIL LOKASI</a></li>
+             <li><a href="pages/layout/top-nav.html"><i class="fa fa-circle-o"></i>AGENT</a></li>
+            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i>MODE</a></li>
+            <li><a href="pages/layout/fixed.html"><i class="fa fa-circle-o"></i>LOG</a></li>
+          </ul>
+        </li>
        </ul>
     </section>
     <!-- /.sidebar -->
